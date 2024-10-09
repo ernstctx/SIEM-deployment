@@ -1,25 +1,34 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>SOC Automation Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of automating Wazuh SIEM, Shuffle, The Hive, Sysmon to communicate in sync and execute critical functions
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Bash</b>
+- <b>Command Line Interface
 
-<h2>Environments Used </h2>
+<h2>Environments and instance Used </h2>
 
 - <b>Windows 10</b> (21H2)
+- <b>Wazuh SIEM</b>
+- <b>Sysmon
+- <b>The Hive
+- <b>Shuffle
 
-<h2>Program walk-through:</h2>
+<h2>SOC Automation Lab diagram:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Overview of tools and instances involved: <br/>
+<img src="https://i.imgur.com/487WUR0.png"
+
+
+-----------Under construction -------
+
+  
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
